@@ -1,0 +1,140 @@
+/*
+ * Globals
+ */
+
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: #fff;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: #333;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: #fff;
+  border: 1px solid #fff;
+}
+
+
+/*
+ * Base structure
+ */
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: #333;
+}
+
+body {
+  color: #fff;
+  font-family: Georgia, serif;
+}
+
+h1, h2, h3, h4, h5, h6, th, nav {
+  font-family: "proxima-nova", sans-serif;
+}
+
+.panel {
+  color: #333;
+}
+
+/* padded section */
+.pad-section {
+  padding: 50px 0;
+}
+.pad-section img {
+  /* width: 100%; */
+}
+
+/* vertical-centered text */
+.text-vcenter {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+.text-vcenter h1 {
+  font-size: 4.5em;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  opacity: 0.8;
+}
+
+.row {
+  margin-bottom: 30px;
+}
+
+.mtcf-logo {
+  height: 122px;
+  width: 324px;
+}
+
+.ccsc-logo {
+  height: 250px;
+  width: 210px;
+}
+
+/*
+ * Sections
+ */
+#home {
+  background: url('../img/MTCF-Rig.jpg') no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#facility {
+  background: url('../img/MTCF-Whiteboard.jpg') no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#facility2 {
+  background: url('../img/MTCF-Gym.jpg') no-repeat center center fixed;
+  display: table;
+  height: 100%;
+  position: relative;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#schedule {
+
+}
+
+#schedule #schedule-table {
+  width: 100%;
+}
+
+#schedule #schedule-table td {
+  vertical-align: top;
+}
+
+#schedule-table td.crossfit {
+  background-color: green;
+}
+
+#google_map {
+  height: 500px;
+}
