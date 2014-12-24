@@ -27,7 +27,6 @@ a:hover {
 html,
 body {
   height: 100%;
-  width: 100%;
   background-color: #333;
 }
 
@@ -38,6 +37,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, th, nav {
   font-family: "proxima-nova", sans-serif;
+  font-weight: bold;
 }
 
 .panel {
@@ -119,6 +119,14 @@ h1, h2, h3, h4, h5, h6, th, nav {
   background-size: cover;
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+  #home,
+  #facility,
+  #facility2 {
+    background-attachment: scroll;
+  }
+}
+
 #schedule {
 
 }
@@ -137,4 +145,15 @@ h1, h2, h3, h4, h5, h6, th, nav {
 
 #google_map {
   height: 500px;
+}
+
+#intro {
+  background: url('../img/MTCF-Intro.jpg');
+  margin-top: 50px;
+  height: 466px;
+}
+
+#thanks {
+  display: table;
+  width: 100%
 }
