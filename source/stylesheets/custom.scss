@@ -84,7 +84,7 @@ h1, h2, h3, h4, h5, h6, th, nav {
  * Sections
  */
 #home {
-  background: url('../img/MTCF-Rig.jpg') no-repeat center center fixed;
+  background: url(image-path('MTCF-Rig.jpg')) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -96,7 +96,7 @@ h1, h2, h3, h4, h5, h6, th, nav {
 }
 
 #facility {
-  background: url('../img/MTCF-Whiteboard.jpg') no-repeat center center fixed;
+  background: url(image-path('MTCF-Whiteboard.jpg')) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -108,7 +108,7 @@ h1, h2, h3, h4, h5, h6, th, nav {
 }
 
 #facility2 {
-  background: url('../img/MTCF-Gym.jpg') no-repeat center center fixed;
+  background: url(image-path('MTCF-Gym.jpg')) no-repeat center center fixed;
   display: table;
   height: 100%;
   position: relative;
@@ -148,7 +148,7 @@ h1, h2, h3, h4, h5, h6, th, nav {
 }
 
 #intro {
-  background: url('../img/MTCF-Intro.jpg');
+  background: url(image-path('MTCF-Intro.jpg'));
   margin-top: 50px;
   height: 466px;
 }
