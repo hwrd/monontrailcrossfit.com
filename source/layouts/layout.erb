@@ -18,6 +18,22 @@
     <script src="//use.typekit.net/ftg8fee.js"></script>
     <script>try{Typekit.load();}catch(e){}</script>
     <%= yield_content :assets %>
+    <script>(function() {
+      var _fbq = window._fbq || (window._fbq = []);
+      if (!_fbq.loaded) {
+        var fbds = document.createElement('script');
+        fbds.async = true;
+        fbds.src = '//connect.facebook.net/en_US/fbds.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(fbds, s);
+        _fbq.loaded = true;
+      }
+      _fbq.push(['addPixelId', '517146898424853']);
+    })();
+    window._fbq = window._fbq || [];
+    window._fbq.push(['track', 'PixelInitialized', {}]);
+    </script>
+    <noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/tr?id=517146898424853&amp;ev=PixelInitialized" /></noscript>
   </head>
   <body>
     <!-- navigation panel -->
