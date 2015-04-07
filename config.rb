@@ -71,6 +71,10 @@ configure :build do
   # set :http_prefix, "/Content/images/"
 end
 
+activate :google_analytics do |ga|
+  ga.tracking_id = 'UA-37727639-2' # Replace with your property ID.
+end
+
 activate :dotenv
 
 activate :deploy do |deploy|
